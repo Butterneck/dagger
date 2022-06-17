@@ -68,7 +68,7 @@ _#DefaultCliVersion:      "2.4.12"
 	// AWS SSO profile
 	profile?: string
 
-	// AWS Container credentials relative uri (used to automatically retrieve credentials from inside AWS)
+	// AWS Container credentials relative uri (used to automatically retrieve credentials from within AWS)
 	containerCredentialsRelativeUri?: dagger.#Secret
 }
 
